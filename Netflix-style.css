@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #141716;
+}
+
+.main{
+    background-image: url(Assets/Images/backnetflx.jpeg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    position: relative;
+    height: 100vh;
+}
+
+.main .layer{
+    height: 100vh;
+    width: 100%;
+    opacity: 0.5;
+    background-color: #000000;
+    position: absolute;
+    top: 0;
+}
+
+nav{
+    height: 90px;
+}
+
+nav .logo img{
+    width: 150px;
+}
+
+nav .buttons a{
+    list-style: none;
+}
+
+nav .button button{
+    border: none;
+}
+
+.content{
+    height: calc(100% - 90px);
+}
+
+.content >*{
+    padding-top: 20px;
+}
+
+.signin{
+    background-color: #e50914;
+    width: 78px;
+    padding: 7px;
+    border-radius: 4px;
+}
+
+.signin a{
+    color: white;
+}
+
+.selector{
+    background-color: #141716;
+    color: white;
+    width: 91px;
+    padding: 3px;
+}
+
+.selector >*{
+    color: #141716;
+    background-color: white;
+    padding: 3px;
+}
+
+.start-button{
+    background-color: #e50914;
+    color: white;
+    padding: 2px;
+    width: 152px;
+    height: 43px;
+    padding-top: 1px;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+}
+
+.start-button img{
+    width: 23px;
+}
+
+.start input{
+    color: white;
+    height: 33px;
+    width: 266px;
+    border: none;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+.seperation-line{
+    background-color: #232323;
+    height: 13px;
+    width: 100%;
+}
+
+.first-section{
+    background-color: #000000;
+    color: white;
+    padding: 15px;
+}
+
+.first-section .left{
+    width: 39vw;
+}
+
+.first-section .left >*{
+    padding-top: 12px;
+}
+
+.first-section .right{
+    position: relative;
+}
+
+.first-section .right img{
+    position: relative;
+    z-index: 10;
+}
+
+.first-section .right video{
+    position: absolute;
+    top: 103px;
+    right: 94px;
+    width: 457px;
+}
+
+
+.second-section{
+    background-color: #000000;
+    color: white;
+    padding: 15px;
+}
+
+.second-section .right{
+    width: 39vw;
+}
+
+.second-section .right >*{
+    padding-top: 12px;
+}
+
+.second-section .left{
+    position: relative;
+}
+
+.second-section .left img{
+    position: relative;
+    z-index: 10;
+}
+
+.second-section .left video{
+    position: absolute;
+    top: 60px;
+    right: 118px;
+    width: 418px;
+}
+
+.third-section{
+    background-color: #000000;
+    color: white;
+    padding: 15px;
+}
+
+.third-section .left{
+    width: 39vw;
+}
+
+.third-section .left >*{
+    padding-top: 12px;
+}

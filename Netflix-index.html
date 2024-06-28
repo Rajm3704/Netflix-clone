@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Assets/Images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="Netflix-style.css">
+    <link rel="stylesheet" href="Netflix-utility.css">
+</head>
+
+<body>
+    <div class="main">
+        <nav class="red flex border" style="justify-content: space-around; gap: 460px;">
+            <div class="logo popout"><img src="Assets/Images/logo.svg" alt="net-logo"></div>
+            <div class="button">
+                <button class="popout" style="margin-right: 5px;">
+                    <form action="" class="border">
+                        <select name="" id="" class="selector">
+                            <option value="">English</option>
+                            <option value="">Hindi</option>
+                        </select>
+                    </form>
+                </button>
+                <button class="signin popout"><a href="#" style="text-decoration: none; font-weight: bold;">Sign In</a></button>
+            </div>
+        </nav>
+        <div class="layer"></div>
+        <div class="content flex popout" style="flex-direction: column; color: white; height: calc(100%-90px);">
+            <h1 class="heading1">Unlimited movies, TV shows and more</h1>
+            <p class="p">Watch anywhere. Cancel anytime.</p>
+            <p class="p">Ready to watch? Enter your email to create or restart your membership.</p>
+            <div class="start flex" style="gap: 6px;">
+                <input type="email" name="" id="" placeholder="Email Address" style="background-color: #141716; opacity: 0.7; border: 2px solid #7f7c7c;" required >
+                <button class="start-button flex">Get Started <img src="Assets/Images/right1.svg" alt="right-svg"></button>
+            </div>
+        </div>
+        <div class="seperation-line"></div>
+    </div>
+    <section class="first-section flex">
+        <div class="left">
+            <h1 class="heading1">Enjoy on your TV</h1>
+            <p class="p">Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+        </div>
+        <div class="right">
+            <img src="Assets/Images/tvscreen.png" alt="tv-slider">
+            <video src="Assets/Videos/slides.m4v" muted autoplay loop></video>
+        </div>
+    </section>
+    <div class="seperation-line"></div>
+    <section class="second-section flex">
+        <div class="left">
+            <img src="Assets/Images/devices.png" alt="devices">
+            <video src="Assets/Videos/video1.m4v" muted autoplay loop></video>
+        </div>
+        <div class="right">
+            <h1 class="heading1">Watch everywhere</h1>
+            <p class="p">Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV.</p>
+        </div>
+    </section>
+    <div class="seperation-line"></div>
+    <section class="third-section flex">
+        <div class="left">
+            <h1 class="heading1">Create profiles for kids</h1>
+            <p class="p">Send children on adventures with their favourite characters in a space made just for them—free with your membership.</p>
+        </div>
+        <div class="right"><img src="Assets/Images/children.png" alt=""></div>
+    </section>
+</body>
+<script src="Netflix-script.js"></script>
+</html>

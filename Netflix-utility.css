@@ -1,0 +1,26 @@
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red{
+    /* background-color: red; */
+}
+
+.border{
+    /* border: 2px solid red; */
+}
+
+.popout{
+    position: relative;
+    z-index: 1;
+}
+
+.heading1{
+    font-size: 40px;
+}
+
+.p{
+    font-size: 20px;
+}
