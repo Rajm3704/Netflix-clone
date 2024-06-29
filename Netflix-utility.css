@@ -24,3 +24,9 @@
 .p{
     font-size: 20px;
 }
+
+.seperation-line{
+    background-color: #232323;
+    height: 10px;
+    width: 100%;
+}

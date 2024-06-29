@@ -102,12 +102,6 @@ button:hover{
     cursor: pointer;
 }
 
-.seperation-line{
-    background-color: #232323;
-    height: 13px;
-    width: 100%;
-}
-
 .first-section{
     background-color: #000000;
     color: white;
@@ -164,7 +158,7 @@ button:hover{
 
 .second-section .left video{
     position: absolute;
-    top: 60px;
+    top: 57px;
     right: 118px;
     width: 418px;
 }
@@ -181,4 +175,60 @@ button:hover{
 
 .third-section .left >*{
     padding-top: 12px;
+}
+
+.faq{
+    background-color: black;
+    color: white;
+}
+
+.faq-tile{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #141716;
+    width: 60vw;
+    padding: 35px 10px 35px 10px;
+    margin: 7px;
+}
+
+.faq-tile:hover{
+    background-color: #232323;
+}
+
+.second{
+    margin: 15px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 32px;
+    padding-bottom: 0;
+}
+
+footer ul{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+footer a, footer li{
+    color: white;
+    font-size: 12px;
+    list-style: none;
+}
+
+.last-img{
+    width: 120px;
+    padding: 23px;
+}
+
+.contact{
+    padding: 12px;
 }
